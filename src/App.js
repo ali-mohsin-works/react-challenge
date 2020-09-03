@@ -99,7 +99,6 @@ class App extends React.Component {
         tractOwnerships: data,
       });
     };
-    //
     const addNPRIToState = (id, owner, interest, is_edit) => {
       let m;
       let n;

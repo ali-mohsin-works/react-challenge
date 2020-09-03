@@ -49,7 +49,6 @@ class NPRI extends React.Component {
             return true;
           }
         });
-        // debugger
       }
       handleNPRIModal(!show_npri, parrent_edit_id, child_edit_id);
     };
@@ -60,9 +59,6 @@ class NPRI extends React.Component {
         removeNPRIFromState(e.currentTarget.title, e.currentTarget.id);
       }
     };
-
-    const setOwner = (e) => this.setState({ owner: e.target.value });
-    const setInterest = (e) => this.setState({ interest: e.target.value });
 
     const formSubmit = () => {
       let idd = '';
